@@ -68,7 +68,7 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 # MongoDB Configuration
 # ============================
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Rishubots099909:<Rishubots099909@rishubots099909.d0fti7v.mongodb.net/?retryWrites=true&w=majority&appName=Rishubots099909")
-DATABASE_URI2 = environ.get('DATABASE_URI2', ""False)
+DATABASE_URI2 = environ.get('DATABASE_URI2', "False"False)
 DATABASE_NAME = environ.get('DATABASE_NAME', "Rishubots099909")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Lucy_files')
 
